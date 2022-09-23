@@ -1,0 +1,13 @@
+{
+	"extends": "@censible/_scaffold/tsconfig.json",
+	"compilerOptions": {
+		"declarationDir": "lib",
+		"emitDeclarationOnly": true,
+		"jsxImportSource": "solid-js",
+		"jsx": "preserve",
+		"rootDir": "src"
+	},
+	"include": [
+		"src"
+	]
+}
