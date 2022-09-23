@@ -1,5 +1,4 @@
 {
-	"private": true,
 	"name": "@ctx-core/solid-nanostores",
 	"version": "1.0.0",
 	"description": "@censible solid helpers",
