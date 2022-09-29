@@ -1,5 +1,13 @@
 # @ctx-core/solid-nanostores
 
+## 1.0.5
+
+### Patch Changes
+
+- solid-js: 1.5.6 -> 1.5.7
+- vite: ^3.1.3 -> ^3.1.4
+- vite-plugin-solid: ^2.3.8 -> ^2.3.9
+
 ## 1.0.4
 
 ### Patch Changes
