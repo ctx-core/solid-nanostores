@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-nanostores",
-	"version": "1.0.16",
+	"version": "1.0.17",
 	"description": "@censible solid helpers",
 	"source": "./src/index.ts",
 	"module": "./src/index.ts",
@@ -31,7 +31,7 @@
 		"solid-js": "1.6.1",
 		"tslib": "^2.4.1",
 		"typescript": "next",
-		"vite": "^3.2.2",
+		"vite": "^3.2.3",
 		"vite-plugin-solid": "^2.4.0"
 	},
 	"type": "module",
