@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 1.1.0
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+
 ## 1.0.17
 
 ### Patch Changes
