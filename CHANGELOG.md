@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 1.1.12
+
+### Patch Changes
+
+- atom:ReadableAtom<Value>|WritableAtom<Value>|ReadableAtom*<Value>|WritableAtom*<Value>
+
 ## 1.1.11
 
 ### Patch Changes
