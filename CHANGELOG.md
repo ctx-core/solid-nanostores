@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 1.1.13
+
+### Patch Changes
+
+- useMemo: atom:ReadableAtom<Value>
+
 ## 1.1.12
 
 ### Patch Changes
