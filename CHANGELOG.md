@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 1.1.30
+
+### Patch Changes
+
+- tsconfig.json: standalone
+
 ## 1.1.29
 
 ### Patch Changes
