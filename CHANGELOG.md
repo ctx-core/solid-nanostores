@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 1.1.32
+
+### Patch Changes
+
+- tslib: ^2.4.1 -> ^2.5.0
+
 ## 1.1.31
 
 ### Patch Changes
