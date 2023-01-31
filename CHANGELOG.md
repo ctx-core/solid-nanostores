@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 1.1.35
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+
 ## 1.1.34
 
 ### Patch Changes

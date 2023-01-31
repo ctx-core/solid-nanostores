@@ -25,7 +25,6 @@
 		"rootDir": "src",
 		"outDir": "lib",
 		"declarationDir": "lib",
-		"importsNotUsedAsValues": "error",
 		"lib": ["ESNext", "ES2021"],
 		"skipLibCheck": true
 	},
