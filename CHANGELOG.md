@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 1.1.41
+
+### Patch Changes
+
+- solid-js: 1.6.10 -> 1.6.11
+
 ## 1.1.40
 
 ### Patch Changes
