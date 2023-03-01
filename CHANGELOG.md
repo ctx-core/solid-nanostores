@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 1.1.57
+
+### Patch Changes
+
+- vite-plugin-solid: ^2.5.0 -> ^2.6.0
+
 ## 1.1.56
 
 ### Patch Changes
