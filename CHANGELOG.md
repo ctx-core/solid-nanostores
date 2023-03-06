@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 1.1.65
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^3.1.5 -> ^3.1.6
+
 ## 1.1.64
 
 ### Patch Changes
