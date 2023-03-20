@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 1.1.72
+
+### Patch Changes
+
+- vite: ^4.2.0 -> ^4.2.1
+
 ## 1.1.71
 
 ### Patch Changes
