@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 1.1.111
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+
 ## 1.1.110
 
 ### Patch Changes
