@@ -1,5 +1,19 @@
 # @ctx-core/solid-nanostores
 
+## 1.2.0
+
+### Minor Changes
+
+- - be*computed_memo_tuple4*
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@3.3.0
+  - @ctx-core/solid-js@1.3.0
+
 ## 1.1.114
 
 ### Patch Changes
