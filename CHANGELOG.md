@@ -1,5 +1,16 @@
 # @ctx-core/solid-nanostores
 
+## 1.3.0
+
+### Minor Changes
+
+- peerDependencies:
+
+      ∋ @ctx-core/nanostores
+      ∋ @ctx-core/object
+      ∋ @ctx-core/solid-js
+      ∋ solid-js
+
 ## 1.2.2
 
 ### Patch Changes
