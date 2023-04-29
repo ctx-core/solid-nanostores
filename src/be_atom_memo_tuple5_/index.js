@@ -27,9 +27,8 @@ export function be_atom_memo_tuple5_(
 		: be_(`${name_OR_atom__new}memo`, memo__new)
 	const memo_ = (ctx = ctx__Context__use())=>
 		memo__be(ctx)
-	const memo =
-		(ctx = ctx__Context__use())=>
-			memo_(ctx)()
+	const memo = (ctx = ctx__Context__use())=>
+		memo_(ctx)()
 	return [
 		...be_atom_triple,
 		memo_,
