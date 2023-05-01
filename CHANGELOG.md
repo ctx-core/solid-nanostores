@@ -1,5 +1,20 @@
 # @ctx-core/solid-nanostores
 
+## 2.0.0
+
+### Minor Changes
+
+- be*atom_memo_tuple5*: + be\_\_params?:be\_\_params_T argument
+- be*computed_memo_tuple4*: + be\_\_params?:be\_\_params_T argument
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@3.4.0
+  - @ctx-core/object@27.4.25
+
 ## 1.3.0
 
 ### Minor Changes
