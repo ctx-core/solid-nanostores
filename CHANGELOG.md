@@ -1,5 +1,13 @@
 # @ctx-core/solid-nanostores
 
+## 2.0.2
+
+### Patch Changes
+
+- be*computed_memo_tuple4*: fix: -base_name|+computed\_\_new arguments
+- Updated dependencies
+  - @ctx-core/nanostores@3.4.1
+
 ## 2.0.1
 
 ### Patch Changes

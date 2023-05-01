@@ -63,7 +63,6 @@ test('be_computed_memo_tuple4_|-base_name|+computed__new|+be__params', ()=>{
 		foobar__memo_,
 		foobar__memo,
 	] = be_computed_memo_tuple4_(
-		undefined,
 		()=>
 			computed_(base_,
 				base=>base + 1),
@@ -87,7 +86,6 @@ test('be_computed_memo_tuple4_|-base_name|+computed__new|-be__params', ()=>{
 		foobar__memo_,
 		foobar__memo,
 	] = be_computed_memo_tuple4_(
-		undefined,
 		()=>
 			computed_(base_,
 				base=>base + 1))
