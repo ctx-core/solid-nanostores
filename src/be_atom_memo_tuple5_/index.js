@@ -1,5 +1,6 @@
 import { be_atom_triple_ } from '@ctx-core/nanostores'
 import { useMemo } from '../useMemo/index.js'
+import { ctx__Context__use } from '@ctx-core/solid-js'
 /** @typedef {import('@ctx-core/object').be__params_T}be__params_T */
 /** @typedef {import('@ctx-core/object').Ctx}Ctx */
 /** @typedef {import('nanostores').WritableAtom}WritableAtom */
@@ -24,7 +25,9 @@ export function be_atom_memo_tuple5_(
 	const atom__be = be_atom_triple[0]
 	return [
 		...be_atom_triple,
-		ctx=>useMemo(atom__be(ctx)),
-		ctx=>useMemo(atom__be(ctx))()
+		(ctx = ctx__Context__use())=>
+			useMemo(atom__be(ctx)),
+		(ctx = ctx__Context__use())=>
+			useMemo(atom__be(ctx))()
 	]
 }

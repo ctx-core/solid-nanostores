@@ -1,10 +1,18 @@
 # @ctx-core/solid-nanostores
 
+## 2.1.1
+
+### Patch Changes
+
+- be_atom_memo_tuple5_,be_computed_memo_tuple4_:
+
+      fix: returned memo_ & memo: default ctx: ctx = ctx__Context__use()
+
 ## 2.1.0
 
 ### Minor Changes
 
-- useMemo,be*atom_memo_tuple5*,be*computed_memo_tuple4*: WeakMap cache based on getOwner()
+- useMemo,be_atom_memo_tuple5_,be_computed_memo_tuple4_: WeakMap cache based on getOwner()
 
 ## 2.0.5
 
@@ -19,8 +27,8 @@
 
 ### Patch Changes
 
-- be*computed_memo_tuple4*: generic type default: C extends ReadableAtom<T> = ReadableAtom\_<T>
-- be*atom_memo_tuple5*: generic type default: A extends WritableAtom<T> = WritableAtom\_<T>
+- be_computed_memo_tuple4_: generic type default: C extends ReadableAtom<T> = ReadableAtom\_<T>
+- be_atom_memo_tuple5_: generic type default: A extends WritableAtom<T> = WritableAtom\_<T>
 - Updated dependencies
 - Updated dependencies
   - @ctx-core/nanostores@3.4.2
@@ -37,7 +45,7 @@
 
 ### Patch Changes
 
-- be*computed_memo_tuple4*: fix: -base_name|+computed\_\_new arguments
+- be_computed_memo_tuple4_: fix: -base_name|+computed\__new arguments
 - Updated dependencies
   - @ctx-core/nanostores@3.4.1
 
@@ -51,8 +59,8 @@
 
 ### Minor Changes
 
-- be*atom_memo_tuple5*: + be\_\_params?:be\_\_params_T argument
-- be*computed_memo_tuple4*: + be\_\_params?:be\_\_params_T argument
+- be_atom_memo_tuple5_: + be\__params?:be\__params_T argument
+- be_computed_memo_tuple4_: + be\__params?:be\__params_T argument
 
 ### Patch Changes
 
@@ -92,7 +100,7 @@
 
 ### Minor Changes
 
-- - be*computed_memo_tuple4*
+- - be_computed_memo_tuple4_
 
 ### Patch Changes
 
@@ -679,7 +687,7 @@
 
 ### Patch Changes
 
-- atom:ReadableAtom<Value>|WritableAtom<Value>|ReadableAtom*<Value>|WritableAtom*<Value>
+- atom:ReadableAtom<Value>|WritableAtom<Value>|ReadableAtom_<Value>|WritableAtom_<Value>
 
 ## 1.1.11
 

@@ -23,12 +23,11 @@ export function be_computed_memo_tuple4_(
 			computed__new_OR_be__params,
 			be__params)
 	const computed__be = be_computed_pair[0]
-	const memo =
-		(ctx = ctx__Context__use())=>
-			useMemo(computed__be(ctx))()
 	return [
 		...be_computed_pair,
-		ctx=>useMemo(computed__be(ctx)),
-		memo
+		(ctx = ctx__Context__use())=>
+			useMemo(computed__be(ctx)),
+		(ctx = ctx__Context__use())=>
+			useMemo(computed__be(ctx))()
 	]
 }
