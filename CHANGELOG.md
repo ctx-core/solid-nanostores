@@ -1,5 +1,15 @@
 # @ctx-core/solid-nanostores
 
+## 2.0.4
+
+### Patch Changes
+
+- be*computed_memo_tuple4*: generic type default: C extends ReadableAtom<T> = ReadableAtom\_<T>
+- be*atom_memo_tuple5*: generic type default: A extends WritableAtom<T> = WritableAtom\_<T>
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@3.4.2
+
 ## 2.0.3
 
 ### Patch Changes
