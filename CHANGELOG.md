@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 2.1.0
+
+### Minor Changes
+
+- useMemo,be*atom_memo_tuple5*,be*computed_memo_tuple4*: WeakMap cache based on getOwner()
+
 ## 2.0.5
 
 ### Patch Changes

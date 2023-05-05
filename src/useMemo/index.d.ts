@@ -1,3 +1,2 @@
-import type { ReadableAtom, WritableAtom } from 'nanostores'
-import type { ReadableAtom_, WritableAtom_ } from '@ctx-core/nanostores'
+import type { ReadableAtom } from 'nanostores'
 export function useMemo<Value>(atom:ReadableAtom<Value>):()=>Value
