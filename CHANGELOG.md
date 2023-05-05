@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 2.1.2
+
+### Patch Changes
+
+- useMemo: onCleanup: delete owner from owner_MM_atom_M_memo WeapMap
+
 ## 2.1.1
 
 ### Patch Changes

@@ -17,7 +17,10 @@ export function useMemo(atom) {
 		set
 	] = createSignal()
 	const unsubscribe = atom.subscribe(val=>set(val))
-	onCleanup(()=>unsubscribe())
+	onCleanup(()=>{
+		unsubscribe()
+		owner_MM_atom_M_memo.delete(owner)
+	})
 	let first_time = true
 	const memo = createMemo(()=>{
 		if (first_time) {
