@@ -1,6 +1,7 @@
 import { be_computed_pair_ } from '@ctx-core/nanostores'
 import { ctx__Context__use } from '@ctx-core/solid-js'
 import { useMemo } from '../useMemo/index.js'
+import { be__memo_pair_ } from '../be__memo_pair_/index.js'
 /** @typedef {import('@ctx-core/object').be__params_T}be__params_T */
 /** @typedef {import('@ctx-core/object').Ctx}Ctx */
 /** @typedef {import('nanostores').ReadableAtom}ReadableAtom */
@@ -25,9 +26,6 @@ export function be_computed_memo_tuple4_(
 	const computed__be = be_computed_pair[0]
 	return [
 		...be_computed_pair,
-		(ctx = ctx__Context__use())=>
-			useMemo(computed__be(ctx)),
-		(ctx = ctx__Context__use())=>
-			useMemo(computed__be(ctx))()
+		...be__memo_pair_(computed__be)
 	]
 }

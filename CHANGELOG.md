@@ -1,5 +1,12 @@
 # @ctx-core/solid-nanostores
 
+## 2.2.0
+
+### Minor Changes
+
+- useSignal: WeakMap caching on getOwner
+- - be**memo*pair*, be**memo_pair_T
+
 ## 2.1.2
 
 ### Patch Changes
@@ -10,7 +17,7 @@
 
 ### Patch Changes
 
-- be_atom_memo_tuple5_,be_computed_memo_tuple4_:
+- be*atom_memo_tuple5*,be*computed_memo_tuple4*:
 
       fix: returned memo_ & memo: default ctx: ctx = ctx__Context__use()
 
@@ -18,7 +25,7 @@
 
 ### Minor Changes
 
-- useMemo,be_atom_memo_tuple5_,be_computed_memo_tuple4_: WeakMap cache based on getOwner()
+- useMemo,be*atom_memo_tuple5*,be*computed_memo_tuple4*: WeakMap cache based on getOwner()
 
 ## 2.0.5
 
@@ -33,8 +40,8 @@
 
 ### Patch Changes
 
-- be_computed_memo_tuple4_: generic type default: C extends ReadableAtom<T> = ReadableAtom\_<T>
-- be_atom_memo_tuple5_: generic type default: A extends WritableAtom<T> = WritableAtom\_<T>
+- be*computed_memo_tuple4*: generic type default: C extends ReadableAtom<T> = ReadableAtom\_<T>
+- be*atom_memo_tuple5*: generic type default: A extends WritableAtom<T> = WritableAtom\_<T>
 - Updated dependencies
 - Updated dependencies
   - @ctx-core/nanostores@3.4.2
@@ -51,7 +58,7 @@
 
 ### Patch Changes
 
-- be_computed_memo_tuple4_: fix: -base_name|+computed\__new arguments
+- be*computed_memo_tuple4*: fix: -base_name|+computed\_\_new arguments
 - Updated dependencies
   - @ctx-core/nanostores@3.4.1
 
@@ -65,8 +72,8 @@
 
 ### Minor Changes
 
-- be_atom_memo_tuple5_: + be\__params?:be\__params_T argument
-- be_computed_memo_tuple4_: + be\__params?:be\__params_T argument
+- be*atom_memo_tuple5*: + be\_\_params?:be\_\_params_T argument
+- be*computed_memo_tuple4*: + be\_\_params?:be\_\_params_T argument
 
 ### Patch Changes
 
@@ -106,7 +113,7 @@
 
 ### Minor Changes
 
-- - be_computed_memo_tuple4_
+- - be*computed_memo_tuple4*
 
 ### Patch Changes
 
@@ -693,7 +700,7 @@
 
 ### Patch Changes
 
-- atom:ReadableAtom<Value>|WritableAtom<Value>|ReadableAtom_<Value>|WritableAtom_<Value>
+- atom:ReadableAtom<Value>|WritableAtom<Value>|ReadableAtom*<Value>|WritableAtom*<Value>
 
 ## 1.1.11
 

@@ -1,3 +1,4 @@
+export * from './be__memo_pair_/index.js'
 export * from './be_atom_memo_tuple5_/index.js'
 export * from './be_computed_memo_tuple4_/index.js'
 export * from './useMemo/index.js'
