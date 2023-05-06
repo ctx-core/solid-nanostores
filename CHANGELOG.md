@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 2.2.1
+
+### Patch Changes
+
+- be*atom_memo_tuple5*,be*computed_memo_tuple4*: argument names: name=id
+
 ## 2.2.0
 
 ### Minor Changes

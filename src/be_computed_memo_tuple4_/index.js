@@ -7,20 +7,20 @@ import { be__memo_pair_ } from '../be__memo_pair_/index.js'
 /** @typedef {import('nanostores').ReadableAtom}ReadableAtom */
 /** @typedef {import('./index.d.ts').be_computed_memo_tuple4_T}be_computed_memo_tuple4_T */
 /**
- * @param {string|null|undefined|((ctx:Ctx)=>ReadableAtom)}[name_OR_computed__new]
+ * @param {string|null|undefined|((ctx:Ctx)=>ReadableAtom)}[id_OR_computed__new]
  * @param {((ctx:Ctx)=>ReadableAtom)|be__params_T}[computed__new_OR_be__params]
  * @param {be__params_T}[be__params]
  * @returns {be_computed_memo_tuple4_T}
  * @private
  */
 export function be_computed_memo_tuple4_(
-	name_OR_computed__new,
+	id_OR_computed__new,
 	computed__new_OR_be__params,
 	be__params
 ) {
 	const be_computed_pair =
 		be_computed_pair_(
-			name_OR_computed__new,
+			id_OR_computed__new,
 			computed__new_OR_be__params,
 			be__params)
 	const computed__be = be_computed_pair[0]
