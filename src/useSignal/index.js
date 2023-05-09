@@ -7,7 +7,7 @@ const owner_MM_atom_M_signal = new WeakMap()
  */
 export function useSignal(atom) {
 	const owner = getOwner()
-	if (!owner_MM_atom_M_memo.has(owner)) {
+	if (!owner_MM_atom_M_signal.has(owner)) {
 		owner_MM_atom_M_signal.set(owner, new WeakMap())
 	}
 	const atom_M_signal = owner_MM_atom_M_signal.get(owner)

@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-nanostores",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"description": "@censible solid helpers",
 	"main": "./src/index.js",
 	"source": "./src/index.js",

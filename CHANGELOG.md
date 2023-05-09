@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 3.0.1
+
+### Patch Changes
+
+- useSignal: fix: reference to owner_MM_atom_M_signal
+
 ## 3.0.0
 
 ### Patch Changes
