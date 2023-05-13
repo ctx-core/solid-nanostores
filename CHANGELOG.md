@@ -1,5 +1,18 @@
 # @ctx-core/solid-nanostores
 
+## 4.0.0
+
+### Major Changes
+
+- be*atom_memo_tuple5*: simplify generics: <A extends WritableAtom = WritableAtom\_>
+- be*computed_memo_tuple4*: simplify generics: <C extends ReadableAtom = ReadableAtom_>
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@4.0.0
+
 ## 3.0.1
 
 ### Patch Changes
