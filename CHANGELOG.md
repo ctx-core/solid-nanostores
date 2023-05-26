@@ -1,5 +1,13 @@
 # @ctx-core/solid-nanostores
 
+## 4.0.2
+
+### Patch Changes
+
+- nanostores: ^0.8.1 -> ^0.9.0
+- Updated dependencies
+  - @ctx-core/nanostores@4.0.2
+
 ## 4.0.1
 
 ### Patch Changes
