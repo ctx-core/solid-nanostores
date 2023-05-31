@@ -1,5 +1,23 @@
 # @ctx-core/solid-nanostores
 
+## 7.0.0
+
+### Minor Changes
+
+- generics: + ctx_T extends Ctx = Ctx:
+
+      be__memo_pair_
+      be__memo_pair_T
+      be_atom_memo_tuple5_
+      be_atom_memo_tuple5_T
+      be_computed_memo_tuple4_
+      be_computed_memo_tuple4_T
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/nanostores@4.2.0
+
 ## 6.0.0
 
 ### Patch Changes
