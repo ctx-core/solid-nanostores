@@ -10,7 +10,7 @@
 		"build": ":",
 		"clean": ":",
 		"exec": "$@",
-		"prepublishOnly": "npm run clean && npm run build && npm run test",
+		"prepublishOnly": "pnpm clean && pnpm build && pnpm test",
 		"test": "pnpm test-unit && check-dts",
 		"test-unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
 		"test-unit-coverage": "c8 pnpm test-unit"
