@@ -10,8 +10,8 @@ test('be_computed_memo_tuple4_|+base_name|+computed__new|+be__params', ()=>{
 	const [
 		foobar__,
 		foobar_,
-		// foobar__memo_,
 		// foobar__memo,
+		// foobar__memo_,
 	] = be_computed_memo_tuple4_(
 		'foobar',
 		()=>
@@ -35,8 +35,8 @@ test('be_computed_memo_tuple4_|+base_name|+computed__new|-be__params', ()=>{
 	const [
 		foobar__,
 		foobar_,
-		// foobar__memo_,
 		// foobar__memo,
+		// foobar__memo_,
 	] = be_computed_memo_tuple4_(
 		'foobar',
 		()=>
@@ -62,8 +62,8 @@ test('be_computed_memo_tuple4_|-base_name|+computed__new|+be__params', ()=>{
 	const [
 		foobar__,
 		foobar_,
-		// foobar__memo_,
 		// foobar__memo,
+		// foobar__memo_,
 	] = be_computed_memo_tuple4_(
 		()=>
 			computed_(base_,
@@ -86,8 +86,8 @@ test('be_computed_memo_tuple4_|-base_name|+computed__new|-be__params', ()=>{
 	const [
 		foobar__,
 		foobar_,
-		// foobar__memo_,
 		// foobar__memo,
+		// foobar__memo_,
 	] = be_computed_memo_tuple4_(
 		()=>
 			computed_(base_,

@@ -10,8 +10,8 @@ test('be_atom_memo_tuple5_|+base_name|+atom__new|+be__params', ()=>{
 		foobar__,
 		foobar_,
 		foobar__set,
-		// foobar__memo_,
 		// foobar__memo,
+		// foobar__memo_,
 	] = be_atom_memo_tuple5_('foobar',
 		()=>atom_(1),
 		{ is_source_ })
@@ -32,8 +32,8 @@ test('be_atom_memo_tuple5_|+base_name|+atom__new|-be__params', ()=>{
 		foobar__,
 		foobar_,
 		foobar__set,
-		// foobar__memo_,
 		// foobar__memo,
+		// foobar__memo_,
 	] = be_atom_memo_tuple5_('foobar',
 		()=>atom_(1))
 	const ctx = ctx_()
@@ -56,8 +56,8 @@ test('be_atom_memo_tuple5_|+base_name|-atom__new|+be__params', ()=>{
 		foobar__,
 		foobar_,
 		foobar__set,
-		// foobar__memo_,
 		// foobar__memo
+		// foobar__memo_,
 	] = be_atom_memo_tuple5_('foobar', { is_source_ })
 	equal(foobar__([ctx_(), ctx]).$, undefined)
 	equal(foobar_([ctx_(), ctx]), undefined)
@@ -76,8 +76,8 @@ test('be_atom_memo_tuple5_|+base_name|-atom__new|-be__params', ()=>{
 		foobar__,
 		foobar_,
 		foobar__set,
-		// foobar__memo_,
 		// foobar__memo
+		// foobar__memo_,
 	] = be_atom_memo_tuple5_('foobar')
 	const ctx = ctx_()
 	equal(foobar__(ctx).$, undefined)
@@ -99,8 +99,8 @@ test('be_atom_memo_tuple5_|-base_name|+atom__new|+be__params', ()=>{
 		foobar__,
 		foobar_,
 		foobar__set,
-		// foobar__memo_,
 		// foobar__memo,
+		// foobar__memo_,
 	] = be_atom_memo_tuple5_(
 		undefined,
 		()=>atom_(1),
@@ -122,8 +122,8 @@ test('be_atom_memo_tuple5_|-base_name|+atom__new|-be__params', ()=>{
 		foobar__,
 		foobar_,
 		foobar__set,
-		// foobar__memo_,
 		// foobar__memo,
+		// foobar__memo_,
 	] = be_atom_memo_tuple5_(undefined, ()=>atom_(1))
 	const ctx = ctx_()
 	equal(foobar__(ctx).$, 1)
@@ -145,8 +145,8 @@ test('be_atom_memo_tuple5_|-base_name|-atom__new|+be__params', ()=>{
 		foobar__,
 		foobar_,
 		foobar__set,
-		// foobar__memo_,
 		// foobar__memo,
+		// foobar__memo_,
 	] = be_atom_memo_tuple5_({ is_source_ })
 	equal(foobar__([ctx_(), ctx]).$, undefined)
 	equal(foobar_([ctx_(), ctx]), undefined)
@@ -165,8 +165,8 @@ test('be_atom_memo_tuple5_|-base_name|-atom__new|-be__params', ()=>{
 		foobar__,
 		foobar_,
 		foobar__set,
-		// foobar__memo_,
 		// foobar__memo,
+		// foobar__memo_,
 	] = be_atom_memo_tuple5_()
 	const ctx = ctx_()
 	equal(foobar__(ctx).$, undefined)

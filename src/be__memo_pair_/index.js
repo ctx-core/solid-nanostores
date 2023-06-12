@@ -11,8 +11,8 @@ import { useMemo } from '../useMemo/index.js'
 export function be__memo_pair_(atom__be) {
 	return [
 		(ctx = ctx__Context__use())=>
-			useMemo(atom__be(ctx)),
+			useMemo(atom__be(ctx))(),
 		(ctx = ctx__Context__use())=>
-			useMemo(atom__be(ctx))()
+			useMemo(atom__be(ctx)),
 	]
 }

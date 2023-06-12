@@ -10,6 +10,6 @@ export type be__memo_pair_T<
 	T,
 	ctx_T extends Ctx = Ctx
 > = [
+	(ctx?:ctx_T)=>T,
 	(ctx?:ctx_T)=>()=>T,
-	(ctx?:ctx_T)=>T
 ]

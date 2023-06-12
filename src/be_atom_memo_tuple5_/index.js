@@ -1,6 +1,4 @@
 import { be_atom_triple_ } from '@ctx-core/nanostores'
-import { useMemo } from '../useMemo/index.js'
-import { ctx__Context__use } from '@ctx-core/solid-js'
 import { be__memo_pair_ } from '../be__memo_pair_/index.js'
 /** @typedef {import('@ctx-core/object').be__params_T}be__params_T */
 /** @typedef {import('@ctx-core/object').Ctx}Ctx */
