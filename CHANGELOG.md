@@ -1,5 +1,13 @@
 # @ctx-core/solid-nanostores
 
+## 13.0.1
+
+### Patch Changes
+
+- nanostores: ∋ btakita/nanostores#issues/188
+- Updated dependencies
+  - @ctx-core/nanostores@5.0.1
+
 ## 13.0.0
 
 ### Major Changes
