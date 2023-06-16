@@ -1,5 +1,18 @@
 # @ctx-core/solid-nanostores
 
+## 13.0.0
+
+### Major Changes
+
+- nanostores: + autosubscribe, async, reentrancy
+
+  uses PR https://github.com/nanostores/nanostores/pull/203
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/nanostores@5.0.0
+
 ## 12.0.3
 
 ### Patch Changes
