@@ -1,5 +1,13 @@
 # @ctx-core/solid-nanostores
 
+## 13.0.3
+
+### Patch Changes
+
+- fix: reference to Autosubscribe
+- Updated dependencies
+  - @ctx-core/nanostores@5.0.3
+
 ## 13.0.2
 
 ### Patch Changes

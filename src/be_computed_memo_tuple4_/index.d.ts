@@ -1,4 +1,4 @@
-import type { Autolisten } from '@ctx-core/nanostores'
+import type { Autosubscribe } from '@ctx-core/nanostores'
 import type { ReadableAtom_ } from '@ctx-core/nanostores'
 import type { Be, be__params_T, Ctx } from '@ctx-core/object'
 import type { ReadableAtom, StoreValue } from 'nanostores'
@@ -22,7 +22,7 @@ export type be_computed_memo_tuple4_T<
 	ctx_T extends Ctx = Ctx
 > = [
 	Be<C, ctx_T>,
-	(ctx:ctx_T, al?:Autolisten<StoreValue<C>>)=>StoreValue<C>,
+	(ctx:ctx_T, al?:Autosubscribe<StoreValue<C>>)=>StoreValue<C>,
 	(ctx?:ctx_T)=>StoreValue<C>,
 	(ctx?:ctx_T)=>()=>StoreValue<C>,
 ]
