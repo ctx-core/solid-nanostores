@@ -1,5 +1,13 @@
 # @ctx-core/solid-nanostores
 
+## 13.0.5
+
+### Patch Changes
+
+- al=>asub
+- Updated dependencies
+  - @ctx-core/nanostores@5.0.5
+
 ## 13.0.4
 
 ### Patch Changes
