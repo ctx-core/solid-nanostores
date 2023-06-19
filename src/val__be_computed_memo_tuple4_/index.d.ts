@@ -5,17 +5,17 @@ export declare function val__be_computed_memo_tuple4_<
 	V,
 	ctx_T extends Ctx = Ctx
 >(
-	val__new:(ctx:MapCtx, asub:Autosubscribe<V>)=>V,
+	val__new:(ctx:MapCtx, asub:Autosubscribe<V>)=>V|PromiseLike<V>,
 	be__params?:be__params_T
-):be_computed_memo_tuple4_T<V, ctx_T>
+):be_computed_memo_tuple4_T<Awaited<V>, ctx_T>
 export declare function val__be_computed_memo_tuple4_<
 	V,
 	ctx_T extends Ctx = Ctx
 >(
 	id:string|null|undefined,
-	val__new:((ctx:MapCtx, asub:Autosubscribe<V>)=>V),
+	val__new:((ctx:MapCtx, asub:Autosubscribe<V>)=>V|PromiseLike<V>),
 	be__params?:be__params_T
-):be_computed_memo_tuple4_T<V, ctx_T>
+):be_computed_memo_tuple4_T<Awaited<V>, ctx_T>
 export type be_computed_memo_tuple4_T<
 	V,
 	ctx_T extends Ctx = Ctx

@@ -25,17 +25,17 @@ export declare function val__be_atom_memo_tuple5_<
 	V,
 	ctx_T extends Ctx = Ctx
 >(
-	val__new:(ctx:MapCtx)=>V,
+	val__new:(ctx:MapCtx)=>V|PromiseLike<V>,
 	be__params?:be__params_T
-):val__be_atom_memo_tuple5_T<V, ctx_T>
+):val__be_atom_memo_tuple5_T<Awaited<V>, ctx_T>
 export declare function val__be_atom_memo_tuple5_<
 	V,
 	ctx_T extends Ctx = Ctx
 >(
 	id:string|null|undefined,
-	val__new:((ctx:MapCtx)=>V),
+	val__new:((ctx:MapCtx)=>V|PromiseLike<V>),
 	be__params?:be__params_T
-):val__be_atom_memo_tuple5_T<V, ctx_T>
+):val__be_atom_memo_tuple5_T<Awaited<V>, ctx_T>
 export type val__be_atom_memo_tuple5_T<
 	V,
 	ctx_T extends Ctx = Ctx

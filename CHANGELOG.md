@@ -1,5 +1,17 @@
 # @ctx-core/solid-nanostores
 
+## 14.1.1
+
+### Patch Changes
+
+- fix: type inference when val\_\_new returns PromiseLike:
+
+      val__be_atom_memo_tuple5_
+      val__be_computed_memo_tuple4_
+
+- Updated dependencies
+  - @ctx-core/nanostores@5.1.1
+
 ## 14.1.0
 
 ### Minor Changes
