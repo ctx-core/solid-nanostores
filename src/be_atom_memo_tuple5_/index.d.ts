@@ -1,5 +1,5 @@
 import type { Autosubscribe, WritableAtom_ } from '@ctx-core/nanostores'
-import type { Be, be__params_T, Ctx } from '@ctx-core/object'
+import type { Be, be__params_T, Ctx, MapCtx } from '@ctx-core/object'
 import type { StoreValue, WritableAtom } from 'nanostores'
 export declare function be_atom_memo_tuple5_<
 	A extends WritableAtom = WritableAtom_,
@@ -26,7 +26,7 @@ export declare function be_atom_memo_tuple5_<
 	A extends WritableAtom = WritableAtom_,
 	ctx_T extends Ctx = Ctx
 >(
-	atom__new:(ctx:ctx_T)=>A,
+	atom__new:(ctx:MapCtx)=>A,
 	be__params?:be__params_T
 ):be_atom_memo_tuple5_T<A, ctx_T>
 export declare function be_atom_memo_tuple5_<
@@ -34,7 +34,7 @@ export declare function be_atom_memo_tuple5_<
 	ctx_T extends Ctx = Ctx
 >(
 	id:string|null|undefined,
-	atom__new:((ctx:ctx_T)=>A),
+	atom__new:((ctx:MapCtx)=>A),
 	be__params?:be__params_T
 ):be_atom_memo_tuple5_T<A, ctx_T>
 export type be_atom_memo_tuple5_T<
@@ -42,7 +42,7 @@ export type be_atom_memo_tuple5_T<
 	ctx_T extends Ctx = Ctx
 > = [
 	Be<A, ctx_T>,
-	(ctx:ctx_T, asub?:Autosubscribe<StoreValue<A>>)=>StoreValue<A>,
+	(ctx:ctx_T, asub?:Autosubscribe)=>StoreValue<A>,
 	(ctx:ctx_T, val:T)=>void,
 	(ctx?:ctx_T)=>StoreValue<A>,
 	(ctx?:ctx_T)=>()=>StoreValue<A>,

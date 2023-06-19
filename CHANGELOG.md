@@ -1,5 +1,30 @@
 # @ctx-core/solid-nanostores
 
+## 14.0.0
+
+### Minor Changes
+
+- - - val\__be_atom_memo_tuple5_
+- - - val\_\_be_computed_memo_tuple4_T
+- - val\__be_computed_memo_tuple4_
+- - val\_\_be_atom_memo_tuple5_T
+
+### Patch Changes
+
+- fix: is_source: matching ctx:MapCtx passed into callback:
+
+      be_atom_memo_tuple5_
+      be_computed_memo_tuple4_
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@5.1.0
+  - @ctx-core/object@28.0.2
+
 ## 13.0.5
 
 ### Patch Changes
