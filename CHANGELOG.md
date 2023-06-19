@@ -1,5 +1,14 @@
 # @ctx-core/solid-nanostores
 
+## 14.1.0
+
+### Minor Changes
+
+- - val\__be_computed_memo_tuple4_
+- - val\__be_atom_memo_tuple5_
+- - val\_\_be_atom_memo_tuple5_T
+- - val\_\_be_computed_memo_tuple4_T
+
 ## 14.0.1
 
 ### Patch Changes
