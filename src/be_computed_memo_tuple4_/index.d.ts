@@ -13,7 +13,7 @@ export declare function be_computed_memo_tuple4_<
 	ctx_T extends Ctx = Ctx
 >(
 	id:string|null|undefined,
-	computed__new:((ctx:MapCtx)=>C),
+	computed__new:(ctx:MapCtx)=>C,
 	be__params?:be__params_T
 ):be_computed_memo_tuple4_T<C, ctx_T>
 export type be_computed_memo_tuple4_T<

@@ -1,5 +1,21 @@
 # @ctx-core/solid-nanostores
 
+## 14.1.3
+
+### Patch Changes
+
+- val**be*atom_memo_tuple5*,val**be*computed_memo_tuple4*:
+
+      fix: val__new returns BoxAutosubscribe<V>|PromiseLike<BoxAutosubscribe<V>>
+
+- val**be*atom_memo_tuple5*,val**be*computed_memo_tuple4*:
+
+      return type: fix: + UnboxAutosubscribe
+
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@5.1.2
+
 ## 14.1.2
 
 ### Patch Changes
