@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 14.1.2
+
+### Patch Changes
+
+- fix: val\_\_be_computed_memo_tuple4_T
+
 ## 14.1.1
 
 ### Patch Changes

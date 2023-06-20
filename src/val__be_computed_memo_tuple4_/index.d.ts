@@ -1,5 +1,5 @@
 import type { Autosubscribe, ReadableAtom_ } from '@ctx-core/nanostores'
-import { MapCtx } from '@ctx-core/object'
+import type { MapCtx } from '@ctx-core/object'
 import type { Be, be__params_T, Ctx } from '@ctx-core/object'
 export declare function val__be_computed_memo_tuple4_<
 	V,
@@ -7,7 +7,7 @@ export declare function val__be_computed_memo_tuple4_<
 >(
 	val__new:(ctx:MapCtx, asub:Autosubscribe<V>)=>V|PromiseLike<V>,
 	be__params?:be__params_T
-):be_computed_memo_tuple4_T<Awaited<V>, ctx_T>
+):val__be_computed_memo_tuple4_T<Awaited<V>, ctx_T>
 export declare function val__be_computed_memo_tuple4_<
 	V,
 	ctx_T extends Ctx = Ctx
@@ -15,8 +15,8 @@ export declare function val__be_computed_memo_tuple4_<
 	id:string|null|undefined,
 	val__new:((ctx:MapCtx, asub:Autosubscribe<V>)=>V|PromiseLike<V>),
 	be__params?:be__params_T
-):be_computed_memo_tuple4_T<Awaited<V>, ctx_T>
-export type be_computed_memo_tuple4_T<
+):val__be_computed_memo_tuple4_T<Awaited<V>, ctx_T>
+export type val__be_computed_memo_tuple4_T<
 	V,
 	ctx_T extends Ctx = Ctx
 > = [
