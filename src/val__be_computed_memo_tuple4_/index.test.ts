@@ -3,13 +3,13 @@ import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { val__be_atom_memo_tuple5_, val__be_computed_memo_tuple4_ } from '../index.js'
 test('val__be_computed_memo_tuple4_|+base_name|+computed__new|+be__params', ()=>{
+	const ctx = ctx_()
+	const is_source_ = (map_ctx:MapCtx)=>map_ctx === ctx
 	const [
 		_base$_,
 		base_,
 		base__set,
-	] = val__be_atom_memo_tuple5_(()=>1)
-	const ctx = ctx_()
-	const is_source_ = (map_ctx:MapCtx)=>map_ctx === ctx
+	] = val__be_atom_memo_tuple5_(()=>1, { is_source_ })
 	const [
 		foobar$_,
 		foobar_,
@@ -59,13 +59,13 @@ test('val__be_computed_memo_tuple4_|+base_name|+computed__new|-be__params', ()=>
 	// equal(foobar__memo(ctx), 2)
 })
 test('val__be_computed_memo_tuple4_|-base_name|+computed__new|+be__params', ()=>{
+	const ctx = ctx_()
+	const is_source_ = (map_ctx:MapCtx)=>map_ctx === ctx
 	const [
 		_base$_,
 		base_,
 		base__set,
-	] = val__be_atom_memo_tuple5_(()=>1)
-	const ctx = ctx_()
-	const is_source_ = (map_ctx:MapCtx)=>map_ctx === ctx
+	] = val__be_atom_memo_tuple5_(()=>1, { is_source_ })
 	const [
 		foobar$_,
 		foobar_,
