@@ -1,5 +1,13 @@
 # @ctx-core/solid-nanostores
 
+## 15.0.4
+
+### Patch Changes
+
+- ∋ btakita/nanostores#issues/188-atom-fn
+- Updated dependencies
+  - @ctx-core/nanostores@5.2.2
+
 ## 15.0.3
 
 ### Patch Changes
