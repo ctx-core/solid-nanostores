@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-nanostores",
-	"version": "15.0.7",
+	"version": "15.0.8",
 	"description": "@censible solid helpers",
 	"main": "./src/index.js",
 	"source": "./src/index.js",
@@ -43,7 +43,7 @@
 		"solid-js": "^1.7.7"
 	},
 	"devDependencies": {
-		"@solidjs/testing-library": "^0.8.3",
+		"@solidjs/testing-library": "^0.8.4",
 		"c8": "^8.0.0",
 		"check-dts": "^0.7.2",
 		"eslint": "^8.44.0",
