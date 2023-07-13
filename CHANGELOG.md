@@ -1,5 +1,18 @@
 # @ctx-core/solid-nanostores
 
+## 15.0.11
+
+### Patch Changes
+
+- btakita/nanostores#issues/188-atom-fn update:
+
+      .on=>.onStart
+      .off=>.onStop
+      autosubscriber=>autosubscribe
+
+- Updated dependencies
+  - @ctx-core/nanostores@5.2.7
+
 ## 15.0.10
 
 ### Patch Changes

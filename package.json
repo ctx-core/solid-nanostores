@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-nanostores",
-	"version": "15.0.10",
+	"version": "15.0.11",
 	"description": "@censible solid helpers",
 	"main": "./src/index.js",
 	"source": "./src/index.js",
@@ -30,14 +30,14 @@
 	},
 	"homepage": "https://github.com/portfoliome/censible-core",
 	"dependencies": {
-		"@ctx-core/nanostores": "^5.2.6",
+		"@ctx-core/nanostores": "^5.2.7",
 		"@ctx-core/object": "^28.0.3",
 		"@ctx-core/solid-js": "^1.3.21",
 		"nanostores": "btakita/nanostores#issues/188-atom-fn",
 		"solid-js": "^1.7.8"
 	},
 	"peerDependencies": {
-		"@ctx-core/nanostores": "^5.2.6",
+		"@ctx-core/nanostores": "^5.2.7",
 		"@ctx-core/object": "^28.0.3",
 		"@ctx-core/solid-js": "^1.3.21",
 		"solid-js": "^1.7.8"
