@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-nanostores",
-	"version": "17.0.0",
+	"version": "17.0.1",
 	"description": "@censible solid helpers",
 	"main": "./src/index.js",
 	"source": "./src/index.js",
@@ -30,16 +30,16 @@
 	},
 	"homepage": "https://github.com/portfoliome/censible-core",
 	"dependencies": {
-		"@ctx-core/nanostores": "^6.0.0",
-		"@ctx-core/object": "^28.0.3",
-		"@ctx-core/solid-js": "^1.4.1",
+		"@ctx-core/nanostores": "^6.0.1",
+		"@ctx-core/object": "^28.0.4",
+		"@ctx-core/solid-js": "^1.4.2",
 		"nanostores": "btakita/nanostores#c4e4ae15a73c64de28b27ffe4f316579ad6abc56",
 		"solid-js": "^1.7.8"
 	},
 	"peerDependencies": {
-		"@ctx-core/nanostores": "^6.0.0",
-		"@ctx-core/object": "^28.0.3",
-		"@ctx-core/solid-js": "^1.4.1",
+		"@ctx-core/nanostores": "^6.0.1",
+		"@ctx-core/object": "^28.0.4",
+		"@ctx-core/solid-js": "^1.4.2",
 		"solid-js": "^1.7.8"
 	},
 	"devDependencies": {
