@@ -46,7 +46,7 @@
 		"@solidjs/testing-library": "^0.8.4",
 		"c8": "^8.0.1",
 		"check-dts": "^0.7.2",
-		"eslint": "^8.48.0",
+		"eslint": "^8.49.0",
 		"tsx": "^3.12.8",
 		"typescript": "^5.3.0-dev.20230829",
 		"uvu": "^0.5.6"
