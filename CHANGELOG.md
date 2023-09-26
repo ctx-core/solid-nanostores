@@ -1,5 +1,13 @@
 # @ctx-core/solid-nanostores
 
+## 17.0.12
+
+### Patch Changes
+
+- nanostores#btakita/1305510a4eb90daf707903bc0679087f87880daf
+- Updated dependencies
+  - @ctx-core/nanostores@6.0.10
+
 ## 17.0.11
 
 ### Patch Changes
