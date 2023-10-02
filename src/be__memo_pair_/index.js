@@ -10,9 +10,19 @@ import { useMemo } from '../useMemo/index.js'
  */
 export function be__memo_pair_(atom__be) {
 	return [
-		(ctx = ctx__Context__use())=>
-			useMemo(atom__be(ctx))(),
-		(ctx = ctx__Context__use())=>
-			useMemo(atom__be(ctx)),
+		(ctx = ctx__Context__use())=>{
+			try {
+				return useMemo(atom__be(ctx))()
+			} catch (err) {
+				throw new Error(`be__memo_pair_|memo|error|id|${atom__be.id}`, { cause: err })
+			}
+		},
+		(ctx = ctx__Context__use())=>{
+			try {
+				return useMemo(atom__be(ctx))
+			} catch (err) {
+				throw new Error(`be__memo_pair_|memo_|error|id|${atom__be.id}`, { cause: err })
+			}
+		},
 	]
 }

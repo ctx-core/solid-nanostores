@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 18.1.0
+
+### Minor Changes
+
+- be**memo*pair*: error: ∋ atom**be.id
+
 ## 18.0.1
 
 ### Patch Changes
