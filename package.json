@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-nanostores",
-	"version": "18.0.0",
+	"version": "18.0.1",
 	"description": "@censible solid helpers",
 	"main": "./src/index.js",
 	"source": "./src/index.js",
@@ -32,14 +32,14 @@
 	"dependencies": {
 		"@ctx-core/nanostores": "^6.0.11",
 		"@ctx-core/object": "^28.1.0",
-		"@ctx-core/solid-js": "^1.4.12",
+		"@ctx-core/solid-js": "^1.4.13",
 		"nanostores": "btakita/nanostores#1305510a4eb90daf707903bc0679087f87880daf",
 		"solid-js": "^1.7.12"
 	},
 	"peerDependencies": {
 		"@ctx-core/nanostores": "^6.0.11",
 		"@ctx-core/object": "^28.1.0",
-		"@ctx-core/solid-js": "^1.4.12",
+		"@ctx-core/solid-js": "^1.4.13",
 		"solid-js": "^1.7.12"
 	},
 	"devDependencies": {
