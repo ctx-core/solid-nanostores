@@ -1,11 +1,11 @@
 import { atom_, computed_ } from '@ctx-core/nanostores'
-import { ctx_, MapCtx } from '@ctx-core/object'
+import { ctx__new, MapCtx } from '@ctx-core/object'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { be_computed_memo_tuple4_ } from '../index.js'
 test('be_computed_memo_tuple4_|+base_name|+computed__new|+be__params', ()=>{
 	const base$ = atom_(1)
-	const ctx = ctx_()
+	const ctx = ctx__new()
 	const is_source_ = (map_ctx:MapCtx)=>map_ctx === ctx
 	const [
 		foobar$_,
@@ -18,14 +18,14 @@ test('be_computed_memo_tuple4_|+base_name|+computed__new|+be__params', ()=>{
 			computed_(()=>
 				base$() + 1),
 		{ is_source_ })
-	equal(foobar$_([ctx_(), ctx]).$, 2)
-	equal(foobar_([ctx_(), ctx]), 2)
+	equal(foobar$_([ctx__new(), ctx]).$, 2)
+	equal(foobar_([ctx__new(), ctx]), 2)
 	// TODO: solid-js v2 should have a way of calling memos without components
 	// equal(foobar__memo_([ctx_(), ctx])(), 2)
 	// equal(foobar__memo([ctx_(), ctx]), 2)
 	base$.$ = 2
-	equal(foobar$_([ctx_(), ctx]).$, 3)
-	equal(foobar_([ctx_(), ctx]), 3)
+	equal(foobar$_([ctx__new(), ctx]).$, 3)
+	equal(foobar_([ctx__new(), ctx]), 3)
 	// TODO: solid-js v2 should have a way of calling memos without components
 	// equal(foobar__memo_([ctx_(), ctx])(), 2)
 	// equal(foobar__memo([ctx_(), ctx]), 2)
@@ -42,7 +42,7 @@ test('be_computed_memo_tuple4_|+base_name|+computed__new|-be__params', ()=>{
 		()=>
 			computed_(base$, base=>
 				base + 1))
-	const ctx = ctx_()
+	const ctx = ctx__new()
 	equal(foobar$_(ctx).$, 2)
 	equal(foobar_(ctx), 2)
 	// TODO: solid-js v2 should have a way of calling memos without components
@@ -57,7 +57,7 @@ test('be_computed_memo_tuple4_|+base_name|+computed__new|-be__params', ()=>{
 })
 test('be_computed_memo_tuple4_|-base_name|+computed__new|+be__params', ()=>{
 	const base$ = atom_(1)
-	const ctx = ctx_()
+	const ctx = ctx__new()
 	const is_source_ = (map_ctx:MapCtx)=>map_ctx === ctx
 	const [
 		foobar$_,
@@ -69,14 +69,14 @@ test('be_computed_memo_tuple4_|-base_name|+computed__new|+be__params', ()=>{
 			computed_(base$,
 				base=>base + 1),
 		{ is_source_ })
-	equal(foobar$_([ctx_(), ctx]).$, 2)
-	equal(foobar_([ctx_(), ctx]), 2)
+	equal(foobar$_([ctx__new(), ctx]).$, 2)
+	equal(foobar_([ctx__new(), ctx]), 2)
 	// TODO: solid-js v2 should have a way of calling memos without components
 	// equal(foobar__memo_([ctx_(), ctx])(), 2)
 	// equal(foobar__memo([ctx_(), ctx]), 2)
 	base$.$ = 2
-	equal(foobar$_([ctx_(), ctx]).$, 3)
-	equal(foobar_([ctx_(), ctx]), 3)
+	equal(foobar$_([ctx__new(), ctx]).$, 3)
+	equal(foobar_([ctx__new(), ctx]), 3)
 	// TODO: solid-js v2 should have a way of calling memos without components
 	// equal(foobar__memo_([ctx_(), ctx])(), 2)
 	// equal(foobar__memo([ctx_(), ctx]), 2)
@@ -91,7 +91,7 @@ test('be_computed_memo_tuple4_|-base_name|+computed__new|-be__params', ()=>{
 	] = be_computed_memo_tuple4_(
 		()=>
 			computed_(()=>base$() + 1))
-	const ctx = ctx_()
+	const ctx = ctx__new()
 	equal(foobar$_(ctx).$, 2)
 	equal(foobar_(ctx), 2)
 	// TODO: solid-js v2 should have a way of calling memos without components
