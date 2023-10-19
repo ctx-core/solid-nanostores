@@ -1,5 +1,19 @@
 # @ctx-core/solid-nanostores
 
+## 19.0.4
+
+### Patch Changes
+
+- solid-js: ^1.8.1 -> ^1.8.3
+- tsx: ^3.13.0 -> ^3.14.0
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@6.0.13
+  - @ctx-core/solid-js@1.4.17
+  - @ctx-core/object@28.2.1
+
 ## 19.0.3
 
 ### Patch Changes
