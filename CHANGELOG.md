@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 19.0.6
+
+### Patch Changes
+
+- be*computed_memo_tuple4*: fix: undo mistaken changes
+
 ## 19.0.5
 
 ### Patch Changes
