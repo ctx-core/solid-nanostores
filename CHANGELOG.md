@@ -1,5 +1,16 @@
 # @ctx-core/solid-nanostores
 
+## 19.0.5
+
+### Patch Changes
+
+- eslint: ^8.51.0 -> ^8.52.0
+- @ctx-core/solid-js: ^1.4.17 -> ^1.4.18
+- @ctx-core/nanostores: ^6.0.13 -> ^6.0.14
+- Updated dependencies
+  - @ctx-core/nanostores@6.0.15
+  - @ctx-core/solid-js@1.4.19
+
 ## 19.0.4
 
 ### Patch Changes
