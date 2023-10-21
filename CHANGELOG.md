@@ -1,5 +1,17 @@
 # @ctx-core/solid-nanostores
 
+## 20.0.0
+
+### Major Changes
+
+- ∋ btakita/nanostores#9f42323d8ddfa65a76851085f6a46a5e2fa51f1e: based off next branch on nanostores/nanostores
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@7.0.0
+
 ## 19.0.6
 
 ### Patch Changes

@@ -1,4 +1,4 @@
-import type { Autosubscribe, ReadableAtom_ } from '@ctx-core/nanostores'
+import type { ReadableAtom_ } from '@ctx-core/nanostores'
 import type { Be, be__params_T, Ctx, MapCtx } from '@ctx-core/object'
 import type { ReadableAtom, StoreValue } from 'nanostores'
 export declare function be_computed_memo_tuple4_<
@@ -21,7 +21,7 @@ export type be_computed_memo_tuple4_T<
 	ctx_T extends Ctx = Ctx
 > = [
 	Be<C, ctx_T>,
-	(ctx:ctx_T, asub?:Autosubscribe)=>StoreValue<C>,
+	(ctx:ctx_T)=>StoreValue<C>,
 	(ctx?:ctx_T)=>StoreValue<C>,
 	(ctx?:ctx_T)=>()=>StoreValue<C>,
 ]
