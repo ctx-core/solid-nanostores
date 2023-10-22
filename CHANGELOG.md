@@ -1,5 +1,17 @@
 # @ctx-core/solid-nanostores
 
+## 20.0.1
+
+### Patch Changes
+
+- fix: types:
+
+      val__be_atom_memo_tuple5_
+      val__be_computed_memo_tuple4_
+
+- Updated dependencies
+  - @ctx-core/nanostores@7.0.1
+
 ## 20.0.0
 
 ### Major Changes

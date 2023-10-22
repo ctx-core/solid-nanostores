@@ -1,7 +1,6 @@
-import type { Autosubscribe, WritableAtom_ } from '@ctx-core/nanostores'
+import type { WritableAtom_ } from '@ctx-core/nanostores'
 import type { Be, be__params_T, Ctx, MapCtx } from '@ctx-core/object'
-import { Task } from 'nanostores'
-import type { BoxAutosubscribe, UnboxAutosubscribe } from 'nanostores'
+import type { Task } from 'nanostores'
 export declare function val__be_atom_memo_tuple5_<
 	V,
 	ctx_T extends Ctx = Ctx
