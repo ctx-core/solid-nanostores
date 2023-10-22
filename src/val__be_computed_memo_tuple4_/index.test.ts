@@ -17,7 +17,7 @@ test('val__be_computed_memo_tuple4_|+base_name|+computed__new|+be__params', ()=>
 		// foobar__memo_,
 	] = val__be_computed_memo_tuple4_(
 		'foobar',
-		(ctx, asub)=>base_(ctx, asub) + 1,
+		ctx=>base_(ctx) + 1,
 		{ is_source_ })
 	equal(foobar$_([ctx__new(), ctx]).$, 2)
 	equal(foobar_([ctx__new(), ctx]), 2)
@@ -44,7 +44,7 @@ test('val__be_computed_memo_tuple4_|+base_name|+computed__new|-be__params', ()=>
 		// foobar__memo_,
 	] = val__be_computed_memo_tuple4_(
 		'foobar',
-		(ctx, asub)=>base_(ctx, asub) + 1)
+		ctx=>base_(ctx) + 1)
 	const ctx = ctx__new()
 	equal(foobar$_(ctx).$, 2)
 	equal(foobar_(ctx), 2)
@@ -72,7 +72,7 @@ test('val__be_computed_memo_tuple4_|-base_name|+computed__new|+be__params', ()=>
 		// foobar__memo,
 		// foobar__memo_,
 	] = val__be_computed_memo_tuple4_(
-		(ctx, asub)=>base_(ctx, asub) + 1,
+		ctx=>base_(ctx) + 1,
 		{ is_source_ })
 	equal(foobar$_([ctx__new(), ctx]).$, 2)
 	equal(foobar_([ctx__new(), ctx]), 2)
@@ -98,7 +98,7 @@ test('val__be_computed_memo_tuple4_|-base_name|+computed__new|-be__params', ()=>
 		// foobar__memo,
 		// foobar__memo_,
 	] = val__be_computed_memo_tuple4_(
-		(ctx, asub)=>base_(ctx, asub) + 1)
+		ctx=>base_(ctx) + 1)
 	const ctx = ctx__new()
 	equal(foobar$_(ctx).$, 2)
 	equal(foobar_(ctx), 2)

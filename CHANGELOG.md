@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 20.0.2
+
+### Patch Changes
+
+- fix: tests
+
 ## 20.0.1
 
 ### Patch Changes
