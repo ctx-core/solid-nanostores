@@ -1,5 +1,5 @@
 import { atom_ } from '@ctx-core/nanostores'
-import { ctx__new, MapCtx } from '@ctx-core/object'
+import { ctx__new, type MapCtx } from '@ctx-core/object'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { be_atom_memo_tuple5_ } from '../index.js'

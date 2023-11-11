@@ -1,6 +1,6 @@
 import { val__be_computed_pair_ } from '@ctx-core/nanostores'
 import { be__memo_pair_ } from '../be__memo_pair_/index.js'
-/** @typedef {import('./index.d.ts').be_computed_memo_tuple4_T}be_computed_memo_tuple4_T */
+/** @typedef {import('../be_computed_memo_tuple4_').be_computed_memo_tuple4_T}be_computed_memo_tuple4_T */
 /**
  * @returns {be_computed_memo_tuple4_T}
  * @private

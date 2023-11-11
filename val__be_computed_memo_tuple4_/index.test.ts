@@ -1,4 +1,4 @@
-import { ctx__new, MapCtx } from '@ctx-core/object'
+import { ctx__new, type MapCtx } from '@ctx-core/object'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { val__be_atom_memo_tuple5_, val__be_computed_memo_tuple4_ } from '../index.js'

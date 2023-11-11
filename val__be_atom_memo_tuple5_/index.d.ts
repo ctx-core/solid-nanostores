@@ -1,6 +1,6 @@
 import type { WritableAtom_ } from '@ctx-core/nanostores'
 import type { Be, be__params_T, Ctx, MapCtx } from '@ctx-core/object'
-import type { Task } from 'nanostores'
+import type { StoreValue, Task } from 'nanostores'
 export declare function val__be_atom_memo_tuple5_<
 	V,
 	ctx_T extends Ctx = Ctx
@@ -43,7 +43,7 @@ export type val__be_atom_memo_tuple5_T<
 > = [
 	Be<WritableAtom_<V>, ctx_T>,
 	(ctx:ctx_T)=>V,
-	(ctx:ctx_T, val:T)=>void,
+	(ctx:ctx_T, val:StoreValue<V>)=>void,
 	(ctx?:ctx_T)=>V,
 	(ctx?:ctx_T)=>()=>V,
 ]
