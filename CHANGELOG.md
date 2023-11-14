@@ -1,5 +1,15 @@
 # @ctx-core/solid-nanostores
 
+## 24.0.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/nanostores@7.1.3
+  - @ctx-core/object@30.1.2
+  - @ctx-core/solid-js@1.5.2
+
 ## 24.0.1
 
 ### Patch Changes
