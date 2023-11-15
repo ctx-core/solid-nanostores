@@ -1,5 +1,12 @@
 # @ctx-core/solid-nanostores
 
+## 25.0.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/object@30.2.0
+
 ## 24.0.4
 
 ### Patch Changes
