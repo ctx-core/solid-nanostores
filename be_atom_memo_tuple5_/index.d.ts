@@ -1,49 +1,22 @@
 import type { WritableAtom_ } from '@ctx-core/nanostores'
-import type { Be, be__params_T, Ctx, MapCtx } from '@ctx-core/object'
-import type { StoreValue, WritableAtom } from 'nanostores'
+import type { Be, be__config_params_T, be__val__new_T, Ctx } from '@ctx-core/object'
+import type { WritableAtom } from 'nanostores'
 export declare function be_atom_memo_tuple5_<
-	A extends WritableAtom = WritableAtom_<unknown>,
+	val_T,
+	atom_T extends WritableAtom<val_T> = WritableAtom_<val_T>,
 	ctx_T extends Ctx = Ctx
->():be_atom_memo_tuple5_T<A, ctx_T>
-export declare function be_atom_memo_tuple5_<
-	A extends WritableAtom = WritableAtom_<unknown>,
-	ctx_T extends Ctx = Ctx
->(
-	be__params?:be__params_T
-):be_atom_memo_tuple5_T<A, ctx_T>
-export declare function be_atom_memo_tuple5_<
-	A extends WritableAtom = WritableAtom_<unknown>,
-	ctx_T extends Ctx = Ctx
->():be_atom_memo_tuple5_T<A, ctx_T>
-export declare function be_atom_memo_tuple5_<
-	A extends WritableAtom = WritableAtom_<unknown>,
-	ctx_T extends Ctx = Ctx
->(
-	id:string|null|undefined,
-	be__params?:be__params_T
-):be_atom_memo_tuple5_T<A, ctx_T>
-export declare function be_atom_memo_tuple5_<
-	A extends WritableAtom = WritableAtom_<unknown>,
-	ctx_T extends Ctx = Ctx
->(
-	atom__new:(ctx:MapCtx)=>A,
-	be__params?:be__params_T
-):be_atom_memo_tuple5_T<A, ctx_T>
-export declare function be_atom_memo_tuple5_<
-	A extends WritableAtom = WritableAtom_<unknown>,
-	ctx_T extends Ctx = Ctx
->(
-	id:string|null|undefined,
-	atom__new:(ctx:MapCtx)=>A,
-	be__params?:be__params_T
-):be_atom_memo_tuple5_T<A, ctx_T>
+>(atom__new:be__val__new_T<val_T>):be_atom_memo_tuple5_T<val_T, atom_T, ctx_T>
 export type be_atom_memo_tuple5_T<
-	A extends WritableAtom = WritableAtom_<unknown>,
+	val_T,
+	atom_T extends WritableAtom<val_T> = WritableAtom_<val_T>,
 	ctx_T extends Ctx = Ctx
 > = [
-	Be<A, ctx_T>,
-	(ctx:ctx_T)=>StoreValue<A>,
-	(ctx:ctx_T, val:StoreValue<A>)=>void,
-	(ctx?:ctx_T)=>StoreValue<A>,
-	(ctx?:ctx_T)=>()=>StoreValue<A>,
-]
+	Be<atom_T, ctx_T>,
+	(ctx:ctx_T)=>val_T,
+	(ctx:ctx_T, val:val_T)=>void,
+	(ctx?:ctx_T)=>val_T,
+	(ctx?:ctx_T)=>()=>val_T,
+]&{
+	config:(params:be__config_params_T)=>be_atom_memo_tuple5_T<val_T, atom_T, ctx_T>
+	oninit:(fn:(ctx:Ctx, atom:atom_T)=>unknown)=>be_atom_memo_tuple5_T<val_T, atom_T, ctx_T>
+}

@@ -1,5 +1,5 @@
 import { createMemo, createSignal, getOwner, onCleanup } from 'solid-js'
-/** @typedef {import('nanostores').ReadableAtom}ReadableAtom */
+/** @typedef {import('nanostores').ReadableAtom} */
 const owner_MM_atom_M_memo = new WeakMap()
 /**
  * @param atom
