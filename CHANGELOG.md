@@ -1,5 +1,25 @@
 # @ctx-core/solid-nanostores
 
+## 31.0.0
+
+### Major Changes
+
+- major: Ctx: + ns:
+
+      exports: + @ctx-core/nanostores
+      be_atom_memo_tuple5_:
+      be_computed_memo_tuple4_:
+      	generics: + ns_T
+      + ∋ ctx-core
+      - ∋ @ctx-core/object
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@10.0.0
+  - ctx-core@5.0.0
+
 ## 30.0.38
 
 ### Patch Changes
