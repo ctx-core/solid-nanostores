@@ -1,8 +1,8 @@
+/// <reference types="ctx-core" />
+/// <reference types="./index.d.ts" />
 import { ctx__Context__use } from '@ctx-core/solid-js'
 import { useMemo } from '../useMemo/index.js'
-/** @typedef {import('@ctx-core/object').Be} */
 /** @typedef {import('nanostores').ReadableAtom} */
-/** @typedef {import('./index.d.ts').be__memo_pair_T} */
 /**
  * @param {Be<ReadableAtom>}atom__be
  * @returns {be__memo_pair_T}
