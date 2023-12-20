@@ -110,7 +110,7 @@ test('be_computed_memo_tuple4_|-autosubscribe|+id|+ns', ()=>{
 	// TODO: solid-js v2 should have a way of calling memos without components
 	// equal(foobar__memo_([ctx_(), ctx])(), 2)
 	// equal(foobar__memo([ctx_(), ctx]), 2)
-	equal((ctx.s.test_ns.get('foobar') as ReadableAtom_<number>).$, 2)
+	equal((ctx.s.test_ns.get('foobar')![0] as ReadableAtom_<number>).$, 2)
 	base__set(ctx, 2)
 	equal(foobar$_(ns_ctx__new(ctx__new(), ctx)).$, 3)
 	equal(foobar_(ns_ctx__new(ctx__new(), ctx)), 3)
@@ -119,7 +119,7 @@ test('be_computed_memo_tuple4_|-autosubscribe|+id|+ns', ()=>{
 	// TODO: solid-js v3 should have a way of calling memos without components
 	// equal(foobar__memo_([ctx_(), ctx])(), 3)
 	// equal(foobar__memo([ctx_(), ctx]), 3)
-	equal((ctx.s.test_ns.get('foobar') as ReadableAtom_<number>).$, 3)
+	equal((ctx.s.test_ns.get('foobar')![0] as ReadableAtom_<number>).$, 3)
 })
 test('be_computed_memo_tuple4_|+autosubscribe|+id|+ns', ()=>{
 	const [
@@ -153,7 +153,7 @@ test('be_computed_memo_tuple4_|+autosubscribe|+id|+ns', ()=>{
 	// TODO: solid-js v2 should have a way of calling memos without components
 	// equal(foobar__memo_([ctx_(), ctx])(), 2)
 	// equal(foobar__memo([ctx_(), ctx]), 2)
-	equal((ctx.s.test_ns.get('foobar') as ReadableAtom_<number>).$, 2)
+	equal((ctx.s.test_ns.get('foobar')![0] as ReadableAtom_<number>).$, 2)
 	base__set(ctx, 2)
 	equal(foobar$_(ns_ctx__new(ctx__new(), ctx)).$, 3)
 	equal(foobar_(ns_ctx__new(ctx__new(), ctx)), 3)
@@ -162,7 +162,7 @@ test('be_computed_memo_tuple4_|+autosubscribe|+id|+ns', ()=>{
 	// TODO: solid-js v3 should have a way of calling memos without components
 	// equal(foobar__memo_([ctx_(), ctx])(), 3)
 	// equal(foobar__memo([ctx_(), ctx]), 3)
-	equal((ctx.s.test_ns.get('foobar') as ReadableAtom_<number>).$, 3)
+	equal((ctx.s.test_ns.get('foobar')![0] as ReadableAtom_<number>).$, 3)
 })
 test('be_computed_memo_tuple4_|be', ()=>{
 	const [
@@ -196,7 +196,7 @@ test('be_computed_memo_tuple4_|be', ()=>{
 	// TODO: solid-js v2 should have a way of calling memos without components
 	// equal(foobar__memo_([ctx_(), ctx])(), 2)
 	// equal(foobar__memo([ctx_(), ctx]), 2)
-	equal((ctx.s.test_ns.get('foobar') as ReadableAtom_<number>).$, 2)
+	equal((ctx.s.test_ns.get('foobar')![0] as ReadableAtom_<number>).$, 2)
 	equal(foobar$_(ns_ctx__new(ctx__new(), ctx)).custom, 'custom-val')
 	equal(foobar$_(ctx).custom, 'custom-val')
 	base__set(ctx, 2)
@@ -207,7 +207,7 @@ test('be_computed_memo_tuple4_|be', ()=>{
 	// TODO: solid-js v3 should have a way of calling memos without components
 	// equal(foobar__memo_([ctx_(), ctx])(), 3)
 	// equal(foobar__memo([ctx_(), ctx]), 3)
-	equal((ctx.s.test_ns.get('foobar') as ReadableAtom_<number>).$, 3)
+	equal((ctx.s.test_ns.get('foobar')![0] as ReadableAtom_<number>).$, 3)
 	equal(foobar$_(ns_ctx__new(ctx__new(), ctx)).custom, 'custom-val')
 	equal(foobar$_(ctx).custom, 'custom-val')
 })

@@ -58,14 +58,14 @@ test('be_atom_memo_tuple5_|+id|+ns', ()=>{
 	// TODO: solid-js v2 should have a way of calling memos without components
 	// equal(foobar__memo_([ctx_(), ctx])(), 1)
 	// equal(foobar__memo([ctx_(), ctx]), 1)
-	equal((ctx.s.test_ns.get('foobar') as WritableAtom_<number>).$, 1)
+	equal((ctx.s.test_ns.get('foobar')![0] as WritableAtom_<number>).$, 1)
 	foobar__set(ns_ctx__new(ctx__new(), ctx), 2)
 	equal(foobar$_(ns_ctx__new(ctx__new(), ctx)).$, 2)
 	equal(foobar_(ns_ctx__new(ctx__new(), ctx)), 2)
 	// TODO: solid-js v2 should have a way of calling memos without components
 	// equal(foobar__memo_([ctx_(), ctx])(), 2)
 	// equal(foobar__memo([ctx_(), ctx]), 2)
-	equal((ctx.s.test_ns.get('foobar') as WritableAtom_<number>).$, 2)
+	equal((ctx.s.test_ns.get('foobar')![0] as WritableAtom_<number>).$, 2)
 })
 test('be_atom_memo_tuple5_|be', ()=>{
 	const ctx = ns_ctx__new('test_ns')
@@ -93,7 +93,7 @@ test('be_atom_memo_tuple5_|be', ()=>{
 	// TODO: solid-js v2 should have a way of calling memos without components
 	// equal(foobar__memo_([ctx_(), ctx])(), 1)
 	// equal(foobar__memo([ctx_(), ctx]), 1)
-	equal((ctx.s.test_ns.get('foobar') as WritableAtom_<number>).$, 1)
+	equal((ctx.s.test_ns.get('foobar')![0] as WritableAtom_<number>).$, 1)
 	equal(foobar$_(ns_ctx__new(ctx__new(), ctx)).custom, 'custom-val')
 	equal(foobar$_(ctx).custom, 'custom-val')
 	foobar__set(ns_ctx__new(ctx__new(), ctx), 2)
@@ -102,7 +102,7 @@ test('be_atom_memo_tuple5_|be', ()=>{
 	// TODO: solid-js v2 should have a way of calling memos without components
 	// equal(foobar__memo_([ctx_(), ctx])(), 2)
 	// equal(foobar__memo([ctx_(), ctx]), 2)
-	equal((ctx.s.test_ns.get('foobar') as WritableAtom_<number>).$, 2)
+	equal((ctx.s.test_ns.get('foobar')![0] as WritableAtom_<number>).$, 2)
 	equal(foobar$_(ns_ctx__new(ctx__new(), ctx)).custom, 'custom-val')
 	equal(foobar$_(ctx).custom, 'custom-val')
 })
