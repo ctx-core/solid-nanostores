@@ -1,5 +1,14 @@
 # @ctx-core/solid-nanostores
 
+## 31.0.17
+
+### Patch Changes
+
+- remove \_ suffix from some directories
+- package.json: fix: description
+- Updated dependencies
+  - @ctx-core/nanostores@10.0.13
+
 ## 31.0.16
 
 ### Patch Changes

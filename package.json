@@ -1,18 +1,18 @@
 {
 	"name": "@ctx-core/solid-nanostores",
-	"version": "31.0.16",
-	"description": "@censible solid helpers",
+	"version": "31.0.17",
+	"description": "ctx-core helpers for solid + nanostores",
 	"files": [
 		"*.d.ts",
 		"*.js",
 		"*.json",
-		"./be__memo_pair_",
-		"./be_atom_memo_tuple5_",
-		"./be_computed_memo_tuple4_",
-		"./useMemo",
-		"./useReadable",
-		"./useSignal",
-		"./useStore"
+		"be__memo_pair",
+		"be_atom_memo_tuple5",
+		"be_computed_memo_tuple4",
+		"useMemo",
+		"useReadable",
+		"useSignal",
+		"useStore"
 	],
 	"main": "./indrex.js",
 	"source": "./index.js",
@@ -42,7 +42,7 @@
 	},
 	"homepage": "https://github.com/portfoliome/censible-core",
 	"dependencies": {
-		"@ctx-core/nanostores": "^10.0.12",
+		"@ctx-core/nanostores": "^10.0.13",
 		"@ctx-core/solid-js": "^1.5.68",
 		"ctx-core": "^5.4.1",
 		"nanostores": "btakita/nanostores#9f42323d8ddfa65a76851085f6a46a5e2fa51f1e",

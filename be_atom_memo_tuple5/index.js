@@ -1,5 +1,5 @@
 import { be_atom_triple_ } from '@ctx-core/nanostores'
-import { be__memo_pair_ } from '../be__memo_pair_/index.js'
+import { be__memo_pair_ } from '../be__memo_pair/index.js'
 /** @typedef {import('./index.d.ts').be_atom_memo_tuple5_T} */
 /**
  * @returns {be_atom_memo_tuple5_T}
