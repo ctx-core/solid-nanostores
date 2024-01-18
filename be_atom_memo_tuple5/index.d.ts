@@ -1,4 +1,4 @@
-import type { WritableAtom_ } from '@ctx-core/nanostores'
+import type { be_config_arg_a_T, WritableAtom_ } from '@ctx-core/nanostores'
 import type { Be, be__val__new_T, be_config_T, ctx__be_T, ctx__get_T, ctx__set_T, Ctx_wide_T } from 'ctx-core/be'
 import type { WritableAtom } from 'nanostores'
 export declare function be_atom_memo_tuple5_<
@@ -14,7 +14,7 @@ export declare function be_atom_memo_tuple5_<
 	ctx_T extends Ctx_wide_T<ns_T> = Ctx_wide_T<ns_T>,
 >(
 	atom__new:be__val__new_T<val_T, ns_T, ctx_T>,
-	config?:be_config_T<ns_T>
+	...config:be_config_arg_a_T<ns_T>
 ):be_atom_memo_tuple5_T<val_T, ns_T, atom_T, ctx_T>
 export type be_atom_memo_tuple5_T<
 	val_T,

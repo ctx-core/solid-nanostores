@@ -1,5 +1,16 @@
 # @ctx-core/solid-nanostores
 
+## 31.0.56
+
+### Patch Changes
+
+- be*atom_memo_tuple5*,be*computed_memo_tuple4*: arguments: config:
+
+      required when ns is defined
+
+- Updated dependencies
+  - @ctx-core/nanostores@10.0.49
+
 ## 31.0.55
 
 ### Patch Changes
