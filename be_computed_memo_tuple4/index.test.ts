@@ -92,7 +92,7 @@ test('be_computed_memo_tuple4_|-autosubscribe|+id|+ns', ()=>{
 		foobar_,
 		// foobar__memo,
 		// foobar__memo_,
-	] = be_computed_memo_tuple4_(
+	] = be_computed_memo_tuple4_<number, 'test_ns'>(
 		ctx=>{
 			/* eslint-disable @typescript-eslint/no-unused-vars */
 			type test_ctx = Expect<Equal<typeof ctx, Ctx_wide_T<'test_ns'>>>
@@ -135,7 +135,7 @@ test('be_computed_memo_tuple4_|+autosubscribe|+id|+ns', ()=>{
 		foobar_,
 		// foobar__memo,
 		// foobar__memo_,
-	] = be_computed_memo_tuple4_(
+	] = be_computed_memo_tuple4_<number, 'test_ns'>(
 		ctx=>{
 			/* eslint-disable @typescript-eslint/no-unused-vars */
 			type test_ctx = Expect<Equal<typeof ctx, Ctx_wide_T<'test_ns'>>>
