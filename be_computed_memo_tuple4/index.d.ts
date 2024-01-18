@@ -1,5 +1,5 @@
 import type { ReadableAtom_, StoreValues } from '@ctx-core/nanostores'
-import type { Be, be__val__new_T, be_config_T, Ctx, ctx__be_T, ctx__get_T, Ctx_wide_T } from 'ctx-core/be'
+import type { Be, be__val__new_T, be_config_T, ctx__be_T, ctx__get_T, Ctx_wide_T } from 'ctx-core/be'
 import type { AnyStore, ReadableAtom, Store, StoreValue, Task } from 'nanostores'
 export declare function be_computed_memo_tuple4_<
 	val_T,
