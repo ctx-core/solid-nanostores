@@ -1,5 +1,5 @@
 import { be_atom_triple_, computed_, type ReadableAtom_ } from '@ctx-core/nanostores'
-import { be_, ctx__new, type Ctx_wide_T, ns_ctx__new } from 'ctx-core/be'
+import { be_, ctx__new, type wide_ctx_T, ns_ctx__new } from 'ctx-core/be'
 import type { Equal, Expect } from 'ctx-core/test'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
@@ -19,7 +19,7 @@ test('be_computed_memo_tuple4_|-autosubscribe', ()=>{
 	] = be_computed_memo_tuple4_(
 		ctx=>{
 			/* eslint-disable @typescript-eslint/no-unused-vars */
-			type test_ctx = Expect<Equal<typeof ctx, Ctx_wide_T<''>>>
+			type test_ctx = Expect<Equal<typeof ctx, wide_ctx_T<''>>>
 			/* eslint-enable @typescript-eslint/no-unused-vars */
 			return base$_(ctx)
 		},
@@ -56,7 +56,7 @@ test('be_computed_memo_tuple4_|+autosubscribe', ()=>{
 		// foobar__memo_,
 	] = be_computed_memo_tuple4_(ctx=>{
 		/* eslint-disable @typescript-eslint/no-unused-vars */
-		type test_ctx = Expect<Equal<typeof ctx, Ctx_wide_T<''>>>
+		type test_ctx = Expect<Equal<typeof ctx, wide_ctx_T<''>>>
 		/* eslint-enable @typescript-eslint/no-unused-vars */
 		return base_(ctx) + 1
 	})
@@ -95,7 +95,7 @@ test('be_computed_memo_tuple4_|-autosubscribe|+id|+ns', ()=>{
 	] = be_computed_memo_tuple4_<number, 'test_ns'>(
 		ctx=>{
 			/* eslint-disable @typescript-eslint/no-unused-vars */
-			type test_ctx = Expect<Equal<typeof ctx, Ctx_wide_T<'test_ns'>>>
+			type test_ctx = Expect<Equal<typeof ctx, wide_ctx_T<'test_ns'>>>
 			/* eslint-enable @typescript-eslint/no-unused-vars */
 			return base$_(ctx)
 		},
@@ -138,7 +138,7 @@ test('be_computed_memo_tuple4_|+autosubscribe|+id|+ns', ()=>{
 	] = be_computed_memo_tuple4_<number, 'test_ns'>(
 		ctx=>{
 			/* eslint-disable @typescript-eslint/no-unused-vars */
-			type test_ctx = Expect<Equal<typeof ctx, Ctx_wide_T<'test_ns'>>>
+			type test_ctx = Expect<Equal<typeof ctx, wide_ctx_T<'test_ns'>>>
 			/* eslint-enable @typescript-eslint/no-unused-vars */
 			return base_(ctx) + 1
 		},
@@ -180,7 +180,7 @@ test('be_computed_memo_tuple4_|be', ()=>{
 		// foobar__memo_,
 	] = be_computed_memo_tuple4_<number, 'test_ns', custom_T>(be_(ctx=>{
 		/* eslint-disable @typescript-eslint/no-unused-vars */
-		type test_ctx = Expect<Equal<typeof ctx, Ctx_wide_T<'test_ns'>>>
+		type test_ctx = Expect<Equal<typeof ctx, wide_ctx_T<'test_ns'>>>
 		/* eslint-enable @typescript-eslint/no-unused-vars */
 		const foobar$ = computed_(()=>base_(ctx) + 1) as custom_T
 		foobar$.custom = 'custom-val'
