@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-nanostores",
-	"version": "31.0.116",
+	"version": "31.0.117",
 	"description": "ctx-core helpers for solid + nanostores",
 	"files": [
 		"*.d.ts",
@@ -36,16 +36,20 @@
 		"ctx-core",
 		"auth"
 	],
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-solid-nanostores@briantakita.me"
+	},
 	"license": "Apache-2.0",
 	"bugs": {
 		"url": "https://github.com/ctx-core/solid-nanostores/issues"
 	},
 	"homepage": "https://github.com/portfoliome/censible-core",
 	"dependencies": {
-		"@ctx-core/nanostores": "^10.0.106",
-		"@ctx-core/solid-js": "^1.5.164",
-		"ctx-core": "^6.6.0",
+		"@ctx-core/nanostores": "^10.0.107",
+		"@ctx-core/solid-js": "^1.5.165",
+		"ctx-core": "^6.6.1",
 		"nanostores": "btakita/nanostores#9f42323d8ddfa65a76851085f6a46a5e2fa51f1e",
 		"solid-js": "^1.8.15"
 	},
