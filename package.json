@@ -59,7 +59,7 @@
 		"check-dts": "^0.7.2",
 		"eslint": "^8.57.0",
 		"tsx": "^4.7.1",
-		"typescript": "^5.4.2",
+		"typescript": "^5.4.3",
 		"uvu": "^0.5.6"
 	},
 	"type": "module",
