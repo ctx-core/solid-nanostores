@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-nanostores",
-	"version": "31.0.121",
+	"version": "31.0.122",
 	"description": "ctx-core helpers for solid + nanostores",
 	"files": [
 		"*.d.ts",
@@ -14,7 +14,7 @@
 		"useSignal",
 		"useStore"
 	],
-	"main": "./indrex.js",
+	"main": "./index.js",
 	"source": "./index.js",
 	"module": "./index.js",
 	"types": "./index.d.ts",

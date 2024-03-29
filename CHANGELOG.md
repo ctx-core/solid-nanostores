@@ -1,5 +1,11 @@
 # @ctx-core/solid-nanostores
 
+## 31.0.122
+
+### Patch Changes
+
+- package.json: fix: main: index.js
+
 ## 31.0.121
 
 ### Patch Changes
