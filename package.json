@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-nanostores",
-	"version": "31.0.122",
+	"version": "31.1.0",
 	"description": "ctx-core helpers for solid + nanostores",
 	"files": [
 		"*.d.ts",

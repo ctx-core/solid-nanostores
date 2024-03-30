@@ -12,3 +12,21 @@ export function be_atom_memo_tuple5_(...arg_a) {
 	be_atom_triple.push(...be__memo_pair_(atom__be))
 	return be_atom_triple
 }
+/**
+ * @param {string}id
+ * @param {be__val__new_T}val__new
+ * @returns {be_atom_memo_tuple5_T}
+ * @private
+ */
+export function id_be_atom_memo_tuple5_(id, val__new) {
+	return be_atom_memo_tuple5_(val__new, { id })
+}
+/**
+ * @param {string}ns
+ * @param {be__val__new_T}val__new
+ * @returns {be_atom_memo_tuple5_T}
+ * @private
+ */
+export function ns_be_atom_memo_tuple5_(ns, val__new) {
+	return be_atom_memo_tuple5_(val__new, { ns })
+}

@@ -1,5 +1,16 @@
 # @ctx-core/solid-nanostores
 
+## 31.1.0
+
+### Minor Changes
+
+- minor:
+
+      + id_be_computed_memo_tuple4_
+      + ns_be_computed_memo_tuple4_
+      + id_be_atom_memo_tuple5_
+      + ns_be_atom_memo_tuple5_
+
 ## 31.0.122
 
 ### Patch Changes
