@@ -55,7 +55,7 @@
 	},
 	"devDependencies": {
 		"@solidjs/testing-library": "^0.8.8",
-		"c8": "^9.1.0",
+		"c8": "^10.0.0",
 		"check-dts": "^0.8.0",
 		"eslint": "^9.4.0",
 		"tsx": "^4.15.1",
