@@ -1,5 +1,14 @@
 # @ctx-core/solid-nanostores
 
+## 31.1.35
+
+### Patch Changes
+
+- ctx-core: ^7.2.17 -> ^7.2.18
+- Updated dependencies
+  - @ctx-core/nanostores@10.0.143
+  - @ctx-core/solid-js@1.5.202
+
 ## 31.1.34
 
 ### Patch Changes
