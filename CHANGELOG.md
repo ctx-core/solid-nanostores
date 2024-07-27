@@ -1,5 +1,16 @@
 # @ctx-core/solid-nanostores
 
+## 31.1.47
+
+### Patch Changes
+
+- @solidjs/testing-library: ^0.8.8 -> ^0.8.9
+- solid-js: ^1.8.18 -> ^1.8.19
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@7.2.29
+  - @ctx-core/solid-js@1.5.214
+
 ## 31.1.46
 
 ### Patch Changes
