@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/solid-nanostores",
-	"version": "31.1.48",
+	"version": "31.1.49",
 	"description": "ctx-core helpers for solid + nanostores",
 	"files": [
 		"*.d.ts",
@@ -48,17 +48,17 @@
 	"homepage": "https://github.com/portfoliome/censible-core",
 	"dependencies": {
 		"@ctx-core/nanostores": "^10.0.154",
-		"@ctx-core/solid-js": "^1.5.214",
-		"ctx-core": "^7.2.29",
+		"@ctx-core/solid-js": "^1.5.215",
+		"ctx-core": "^7.2.30",
 		"nanostores": "btakita/nanostores#9f42323d8ddfa65a76851085f6a46a5e2fa51f1e",
-		"solid-js": "^1.8.19"
+		"solid-js": "^1.8.20"
 	},
 	"devDependencies": {
 		"@solidjs/testing-library": "^0.8.9",
 		"c8": "^10.1.2",
 		"check-dts": "^0.8.0",
-		"eslint": "^9.8.0",
-		"tsx": "^4.16.2",
+		"eslint": "^9.9.0",
+		"tsx": "^4.17.0",
 		"typescript": "^5.5.4",
 		"uvu": "^0.5.6"
 	},
