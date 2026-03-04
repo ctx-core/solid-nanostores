@@ -24,7 +24,7 @@
 		"exec": "$@",
 		"prepublishOnly": "pnpm clean && pnpm build && pnpm test",
 		"test": "pnpm run /^test:/",
-		"test:types": "check-dts",
+		"test:types": "tsc --noEmit",
 		"test:unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
@@ -56,7 +56,6 @@
 	"devDependencies": {
 		"@solidjs/testing-library": "^0.8.10",
 		"c8": "^11.0.0",
-		"check-dts": "^0.9.0",
 		"eslint": "^10.0.2",
 		"tsx": "^4.21.0",
 		"typescript": "^5.9.3",
