@@ -1,5 +1,15 @@
 # @ctx-core/solid-nanostores
 
+## 31.1.54
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+  - @ctx-core/nanostores@10.0.159
+  - @ctx-core/solid-js@1.5.219
+
 ## 31.1.53
 
 ### Patch Changes
