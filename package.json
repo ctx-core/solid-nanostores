@@ -22,11 +22,11 @@
 		"build": ":",
 		"clean": ":",
 		"exec": "$@",
-		"prepublishOnly": "pnpm clean && pnpm build && pnpm test",
-		"test": "pnpm run /^test:/",
+		"prepublishOnly": "bun run clean && bun run build && bun run test && publint && attw --pack --ignore-rules cjs-resolves-to-esm",
+		"test": "bun run test:types && bun run test:unit",
 		"test:types": "tsc --noEmit",
 		"test:unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
-		"disable:test:unit:coverage": "c8 pnpm test:unit"
+		"disable:test:unit:coverage": "c8 bun run test:unit"
 	},
 	"repository": {
 		"type": "git",
